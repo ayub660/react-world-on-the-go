@@ -32,7 +32,7 @@ const Country = ({country, handleVisitedCountries, handleVisitedFlag}) => {
             <h3>Name:{country.name.common}</h3>
             <p>Population: {country.population.population}</p>
             
-            {/* <p>Region : {country.region.region} </p> */}
+            <p>Region : {country.region.region} </p>
             {/* <p>Capital: {country.capital.capital}</p> */}
             <p>Area : {country.area.area} 
                 {country.area.area > 300000 ? "Big Country" :  'Small Country'} </p>
